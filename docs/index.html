@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="مساعد المعلم لإعداد خطط الدروس والأنشطة وأسئلة التقويم."><title>المساعد الذكي للمعلم | نسخة أولية</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="#"><span class="brand-mark">م</span><span><strong>مِداد</strong><small>مساعد المعلم التربوي</small></span></a><span class="version">نسخة تجريبية 0.1</span></div></header>
+<main class="container">
+<section class="intro"><div class="eyebrow">التخطيط · التعلم النشط · التقويم</div><h1>حوّل فكرة الدرس إلى خطة تعلم متكاملة</h1><p>أدخل بيانات الدرس، وسيقترح لك التطبيق خطة منظمة وأنشطة متدرجة وأسئلة تقويم يمكنك تعديلها قبل الطباعة.</p></section>
+<div class="workspace">
+<section class="panel form-panel" aria-labelledby="form-title"><div class="panel-heading"><div><span class="step">01</span><h2 id="form-title">بيانات الدرس</h2></div><button type="button" class="text-button" id="sampleBtn">ملء مثال</button></div>
+<form id="lessonForm"><div class="field-grid">
+<label>الصف الدراسي<select id="grade" required><option value="">اختر الصف</option><option>الأول الابتدائي</option><option>الثاني الابتدائي</option><option>الثالث الابتدائي</option><option>الرابع الابتدائي</option><option>الخامس الابتدائي</option><option>السادس الابتدائي</option><option>الأول الإعدادي</option><option>الثاني الإعدادي</option><option>الثالث الإعدادي</option><option>الأول الثانوي</option><option>الثاني الثانوي</option><option>الثالث الثانوي</option></select></label>
+<label>المادة الدراسية<input id="subject" required placeholder="مثال: اللغة العربية"></label>
+<label class="wide">عنوان الدرس أو موضوعه<input id="topic" required placeholder="مثال: علامات الترقيم"></label>
+<label>زمن الحصة (دقيقة)<input id="duration" type="number" min="20" max="180" value="45" required></label><label>عدد المتعلمين (اختياري)<input id="students" type="number" min="1" placeholder="مثال: 30"></label>
+<label class="wide">نواتج التعلم المستهدفة<textarea id="objectives" rows="3" placeholder="مثال: أن يميز المتعلم بين الفاصلة والنقطة، وأن يوظفهما في فقرة قصيرة."></textarea></label>
+<label class="wide">المعارف أو الخبرات السابقة<textarea id="prior" rows="2" placeholder="ما الذي يعرفه المتعلمون بالفعل؟"></textarea></label>
+<label class="wide">الموارد والأدوات المتاحة<input id="resources" placeholder="مثال: السبورة، بطاقات، جهاز عرض"></label></div>
+<button class="primary-button" type="submit"><span>✦</span> إنشاء تصور الدرس</button><p class="form-note">لا تُدخل أسماء الطلاب أو بياناتهم الشخصية.</p></form></section>
+<section class="panel output-panel" aria-labelledby="output-title"><div class="panel-heading output-heading"><div><span class="step">02</span><h2 id="output-title">مخرجات الدرس</h2></div><div class="actions"><button type="button" class="icon-button" id="copyBtn" disabled>نسخ النص</button><button type="button" class="icon-button" id="printBtn" disabled>طباعة</button></div></div>
+<div id="emptyState" class="empty-state"><div class="empty-icon">✎</div><h3>مساحة إعدادك تبدأ من هنا</h3><p>أكمل بيانات الدرس ثم اضغط «إنشاء تصور الدرس» لتظهر الخطة والأنشطة والتقويم في هذه المساحة.</p><ul><li>خطة موزعة زمنيًا</li><li>أنشطة دعم وتطبيق وإثراء</li><li>أسئلة تقويم مع إجابات مقترحة</li></ul></div>
+<div id="resultArea" hidden><div class="result-meta" id="resultMeta"></div><label class="editor-label" for="resultText">يمكنك تحرير النص الناتج مباشرة</label><textarea id="resultText" class="result-editor" spellcheck="false" aria-label="مخرجات الدرس القابلة للتحرير"></textarea><div class="result-hint">راجع ملاءمة الأهداف والأنشطة والإجابات لمستوى طلابك والمنهج المعتمد قبل الاستخدام.</div></div></section>
+</div>
+<section class="notice"><strong>تنبيه تربوي:</strong> هذه نسخة أولية تعتمد على قوالب إرشادية محلية، وليست مولّدًا متصلًا بنموذج ذكاء اصطناعي أو مصدرًا للمنهج الرسمي. الناتج مسودة تحتاج إلى مراجعة المعلم وتكييفها مع الكتاب المدرسي والفروق الفردية.</section>
+</main><footer><span>مِداد · أدوات عملية للمعلم</span><span>صُمم لدعم التخطيط، لا لاستبدال الحكم المهني للمعلم.</span></footer><script src="app.js"></script></body></html>
