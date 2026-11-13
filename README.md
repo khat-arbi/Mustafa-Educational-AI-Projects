@@ -1,2 +1,41 @@
-# Mustafa-Educational-AI-Projects
-Educational AI projects, Arabic language teaching tools, Arabic calligraphy resources, and educational technology.
+# Mustafa Educational AI Projects
+
+منصة مفتوحة لمشاركة المشروعات والموارد التعليمية التي توظّف الذكاء الاصطناعي والتقنيات الرقمية في التعليم، مع اهتمام خاص باللغة العربية والخط العربي والبحث العلمي.
+
+An open collection of educational projects and resources using AI and digital technologies, with a focus on Arabic language teaching, Arabic calligraphy, and educational research.
+
+## مجالات المستودع | Repository areas
+
+| المجلد | المحتوى |
+|---|---|
+| [`ai-in-education/`](ai-in-education/README.md) | تطبيقات الذكاء الاصطناعي في التدريس والتعلّم |
+| [`arabic-language/`](arabic-language/README.md) | تعليم اللغة العربية ومهاراتها |
+| [`arabic-calligraphy/`](arabic-calligraphy/README.md) | الخط العربي وأنشطته وموارده الرقمية |
+| [`research/`](research/README.md) | البحث العلمي ومهارات البحث والتوثيق |
+| [`teaching-resources/`](teaching-resources/README.md) | استراتيجيات التدريس والتقويم والموارد التعليمية |
+| [`projects/`](projects/README.md) | مشروعات وتطبيقات تعليمية مكتملة أو قيد التطوير |
+| [`templates/`](templates/README.md) | قوالب وأدوات قابلة لإعادة الاستخدام |
+| [`docs/`](docs/README.md) | أدلة الاستخدام والتوثيق |
+
+## أهداف المستودع
+
+- تقديم نماذج عملية مسؤولة لتوظيف الذكاء الاصطناعي في التعليم.
+- دعم تعليم اللغة العربية وتنمية مهارات القراءة والكتابة والتعبير.
+- إثراء تعليم الخط العربي بموارد وأنشطة رقمية.
+- مشاركة أدوات البحث العلمي والتفكير الناقد ومهارات القرن الحادي والعشرين.
+- تشجيع التعاون والتحسين المستمر وتبادل الخبرات.
+
+## مبادئ الاستخدام
+
+- تحقّق من دقة المعلومات والمخرجات قبل استخدامها تعليميًا أو بحثيًا.
+- احمِ خصوصية المتعلمين ولا ترفع بيانات شخصية أو ملفات حساسة.
+- راعِ حقوق الملكية الفكرية، واذكر مصادر المواد المقتبسة أو المعاد استخدامها.
+- استخدم الذكاء الاصطناعي بوصفه أداة مساندة، مع بقاء الحكم التربوي والمسؤولية البشرية.
+
+## المشاركة
+
+يسعدنا استقبال الأفكار والتحسينات. يُرجى الاطلاع على [دليل المساهمة](CONTRIBUTING.md) قبل إرسال طلبات الدمج.
+
+## اللغة
+
+المحتوى العربي هو الأساس في هذا المستودع، ويمكن إرفاق ملخص أو توثيق باللغة الإنجليزية عند الحاجة.
